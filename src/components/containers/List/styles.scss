@@ -1,0 +1,28 @@
+@import '../../../scss/all';
+
+.list {
+  @include column(12);
+
+  @include media-breakpoint-up(md) {
+    @include column(6);
+  }
+}
+
+.items {
+  @include paper(); 
+
+  list-style-type: none;
+  margin: .2em 0 0 0;
+  padding: .5em;
+}
+
+.item {
+  display: flex;
+  color: $color-primary;
+  padding-left: 1em;
+  font-weight: 700;
+
+  div {
+    cursor: pointer;
+  }
+}

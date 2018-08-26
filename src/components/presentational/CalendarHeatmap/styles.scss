@@ -1,0 +1,8 @@
+@import '../../../scss/all';
+
+:global(.react-calendar-heatmap) :local(.color-empty) {
+  fill: $color-secondary;
+}
+:global(.react-calendar-heatmap) :local(.color-scale) {
+  fill: $color-primary;
+}

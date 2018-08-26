@@ -1,0 +1,30 @@
+@import '../../../scss/all';
+
+.section {
+  :global(.react-calendar-heatmap) {
+    max-height: 10em;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4em;
+  padding: 2em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  @include media-breakpoint-up(md) {
+    flex-direction: row; 
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 2em;
+  width: 100%;
+  box-sizing: border-box;
+
+}

@@ -1,0 +1,34 @@
+@import '../../../../scss/all';
+
+.form {
+  @include paper();
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  color: $color-primary;
+  top: 1em;
+  right: 1em;
+}
+
+.group {
+  padding: .5em;
+}
+
+.input {
+  @include input();
+}
+
+.label {
+  color: $color-primary;
+}
+
+.button {
+  @include button();
+}
+
+.error {
+  padding: .5em;
+  color: red;
+}
