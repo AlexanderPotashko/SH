@@ -1,6 +1,6 @@
 {
-  "short_name": "atu_test_application",
-  "name": "A.T.U. test application",
+  "short_name": "smarthost_app",
+  "name": "smarthost dashboard",
   "icons": [
     {
       "src": "favicon.ico",
