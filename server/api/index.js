@@ -6,8 +6,6 @@ import _fakeFetch_ from './utils';
 const apiRouter = express.Router();
 
 apiRouter.use('/api/auth', (req, res) => {
-  console.log('/api/auth');
-
   const { email, password } = req.body;
 
   console.log('auth', email, password);
